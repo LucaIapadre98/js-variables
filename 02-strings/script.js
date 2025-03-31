@@ -28,7 +28,15 @@ const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 const fullName = 'Jane' + ' ' + 'Smith';
 console.log(fullName); // Output: "Jane Smith"
 
+
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null; // NON MODIFICARE QUESTA RIGA
+const numberOfLettersInAlphabet = null // NON MODIFICARE QUESTA RIGA
 console.log(numberOfLettersInAlphabet); // Output: 26
+let a = numberOfLettersInAlphabet;
+let b = 26;
+console.log( a , b); // Output: 26
+
+let c = a
+a = b
+b = c
