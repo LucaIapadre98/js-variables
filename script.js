@@ -18,13 +18,13 @@ const numThreeDividedByNumOne = 32 / 8; // 4
 console.log(numThreeDividedByNumOne); // Output: 4
 
 // 4. Imposta questa variabile come differenza tra numThree e numOne
-const numThreeMinusNumOne = NaN;
+const numThreeMinusNumOne = 32 - 8; // 24
 console.log(numThreeMinusNumOne); // Output: 24
 
 // 5. Imposta questa variabile come somma di numOne, numTwo e numThree
-const sum = NaN;
+const sum = 8 + 16 + 32 // 56;
 console.log(sum); // Output: 56
 
 // 6. Imposta questa variabile come somma di numOne, numTwo, numThree diviso numOne
-const numBytes = NaN;
+const numBytes = (8+ 16 + 32) / 8; //7
 console.log(numBytes); // Output: 7
